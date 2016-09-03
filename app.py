@@ -2,7 +2,7 @@ from flask import Flask
 app = Flask("toplay")
 import random
 
-choices=['Hilary','Trump','Jill','Gary']
+choices=['Hilary','Trump','Jill','Gary','Chin','Tung Tung']
 
 @app.route('/')
 def is_nuts():
